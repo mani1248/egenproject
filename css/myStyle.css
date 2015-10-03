@@ -3,6 +3,7 @@
 html, body{
 
     height: 100%;
+    background: #E2E2E2;
 }
 
 #header{
@@ -13,26 +14,122 @@ html, body{
     float: top;
 }
 
-#main_content{
+#login_button{
 
-    height: 70%;
+    background: crimson;
+    height: 30%;
+    width: 50%;
+    text-align: center;
+    font-size: 90%;
+    font-family: sans-serif;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
-#left_panel{
 
-    background-color: brown;
-    width: 30%;
-    height: 100%;
-    float: left;
-    /*position: absolute;*/
+#menubar{
+
+    height: 10%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.93);
 }
 
-#right_panel{
+#menubar div{
 
-    background-color: chocolate;
-    width: 70%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#images{
+
+    height: 450px;
+    width: 100%;
+    background: black;
+}
+
+/*#image_carousel{*/
+
+    /*height: 450px;*/
+    /*width: 100%;*/
+    /*background: black;*/
+/*}*/
+
+/*#images img{*/
+
+    /*max-height: 100%;*/
+    /*max-width: 100%;*/
+    /*object-fit: contain;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*display: block;*/
+/*}*/
+
+/*#image_carousel img{*/
+
+    /*max-height: 100%;*/
+    /*max-width: 100%;*/
+    /*object-fit: contain;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*display: block;*/
+/*}*/
+
+#resv{
+
+    height: 55%;
+    width: 100%;
+}
+
+#resv div{
+
     height: 100%;
+    width: 50%;
     float: left;
-    /*position: relative;*/
+}
+
+#resv button {
+
+    margin-left: 200px;
+}
+
+#create_resv{
+
+    background: greenyellow;
+}
+
+
+fieldset{
+
+    width: 500px;
+}
+
+label.field{
+
+    text-align: right;
+    width: 200px;
+    float: left;
+    font-weight: bold;
+}
+
+input.text{
+
+    width: 300px;
+    float: left;
+}
+
+fieldset p{
+
+    clear: both;
+    padding: 5px;
+}
+
+
+#edit_del_resv{
+
+    background: limegreen;
 }
 
 #bottom{
@@ -41,16 +138,18 @@ html, body{
     width: 100%;
     height: 10%;
     vertical-align: top;
-    margin: 0;
     float: left;
 }
 
 #footer{
 
-    background-color: fuchsia;
+    background-color: black;
     width: 100%;
     height: 10%;
     vertical-align: top;
-    margin: 0;
     float: left;
+    rgba: (0,0,0,.93);
 }
+
+
+
