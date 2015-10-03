@@ -50,32 +50,22 @@ html, body{
     background: black;
 }
 
-/*#image_carousel{*/
+#image_carousel {
 
-    /*height: 450px;*/
-    /*width: 100%;*/
-    /*background: black;*/
-/*}*/
+    height: 100%;
+    width: 100%;
+    background: black;
+}
 
-/*#images img{*/
+#image_carousel img{
 
-    /*max-height: 100%;*/
-    /*max-width: 100%;*/
-    /*object-fit: contain;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*display: block;*/
-/*}*/
-
-/*#image_carousel img{*/
-
-    /*max-height: 100%;*/
-    /*max-width: 100%;*/
-    /*object-fit: contain;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*display: block;*/
-/*}*/
+    max-height: 450px;
+    max-width: 100%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 #resv{
 
@@ -92,7 +82,8 @@ html, body{
 
 #resv button {
 
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #create_resv{
